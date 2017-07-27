@@ -66,7 +66,7 @@
 		echo "<br>Nuevo token: ".$nuevoToken;
 		//insertar datos del token
 		$sql = "INSERT INTO tbl_tokens (tx_token, tx_correo)
-		VALUES('$nuevoToken','notaspro@notas-programacion.com');";
+		VALUES('$nuevoToken','armandocassau@hotmail.com');";
 		mysql_query($sql);
 	}
 ?>
